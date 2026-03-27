@@ -33,5 +33,6 @@ int main() {
         free(head);
         head = safexit;
     }
+    free(safexit)
     return 0;
 }
